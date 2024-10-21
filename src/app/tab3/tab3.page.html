@@ -1,0 +1,164 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Curriculum Luis Guaygua</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+
+    <!-- Perfil y Encabezado -->
+    <ion-card>
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="Profile Photo">
+        </ion-avatar>
+        <ion-label>
+          <h2>Luis Mario Guaygua Román</h2>
+          <p>Desarrollador Full Stack</p>
+        </ion-label>
+      </ion-item>
+      <ion-card-content>
+        <p>Soy un desarrollador Full stack con experiencia en mongoDB,
+          JavaScript, Node.js, React, Java y Python
+        </p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-segment value="experiencia">
+      <ion-segment-button value="experiencia">
+        <ion-label>Experiencia</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="educacion">
+        <ion-label>Educación</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="habilidades">
+        <ion-label>Habilidades</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Proyectos</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list>
+          <ion-item color="tertiary" style="margin-bottom: 10px;">
+            <ion-label>
+              <h2>Desarrollador Full Stack - Veterinaria HAKIM</h2>
+              <p>marzo 2024 - julio 2024</p>
+              <p>Desarrollo de una pagina web para la gestión de pacientes con JavaScript, React vite y mongoDB</p>
+            </ion-label>
+          </ion-item>
+          <ion-item color="success" style="margin-bottom: 10px;">
+            <ion-label>
+              <h2>Desarrollador Full Stack - Gestión de eventos</h2>
+              <p>enero 2024</p>
+              <p>Desarrollo de un frontend y backend para gestionar eventos con React y JavaScript</p>
+            </ion-label>
+          </ion-item>
+          <ion-item color="warning" style="margin-bottom: 10px;">
+            <ion-label>
+              <h2>Desarrollador Full Stack - Sistema de reservas de entradas de cine "CINEPOLI"</h2>
+              <p>enero 2024</p>
+              <p>Desarrollo de un sistema de reservas de entradas de cine con JAVA y MySql</p>
+            </ion-label>
+          </ion-item>
+          <ion-item color="danger" style="margin-bottom: 10px;">
+            <ion-label>
+              <h2>Desarrollador Frontend - Sistema de gestión y publicación de productos gamer "TecnoQuito"</h2>
+              <p>agosto 2024</p>
+              <p>Desarrollo de un sistema de gestión y publicación de productos gamer con JavaScript y React vite</p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+    
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Educación</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list>
+          <ion-item>
+            <ion-label>
+              <h2>Desarro de software - Escuela Politecnica Nacional</h2>
+              <p>2022 - 2024</p>
+              <p>Tecnologo Superior en desarrollo de software</p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Habilidades</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-chip color="primary">JavaScript</ion-chip>
+        <ion-chip color="secondary">Node.js</ion-chip>
+        <ion-chip color="tertiary">React</ion-chip>
+        <ion-chip color="success">Ionic</ion-chip>
+        <ion-chip color="warning">MongoDB</ion-chip>
+        <ion-chip color="danger">Java</ion-chip>
+        <ion-chip color="medium">Python</ion-chip>
+
+        <ion-list>
+          <ion-item>
+            <ion-label>JavaScript</ion-label>
+            <ion-progress-bar value="0.9" color="primary"></ion-progress-bar>
+          </ion-item>
+          <ion-item>
+            <ion-label>Node.js</ion-label>
+            <ion-progress-bar value="0.8" color="secondary"></ion-progress-bar>
+          </ion-item>
+          <ion-item>
+            <ion-label>React</ion-label>
+            <ion-progress-bar value="0.85" color="tertiary"></ion-progress-bar>
+          </ion-item>
+          <ion-item>
+            <ion-label>Ionic</ion-label>
+            <ion-progress-bar value="0.9" color="success"></ion-progress-bar>
+          </ion-item>
+          <ion-item>
+            <ion-label>MongoDB</ion-label>
+            <ion-progress-bar value="0.9" color="warning"></ion-progress-bar>
+          </ion-item>
+          <ion-item>
+            <ion-label>Java</ion-label>
+            <ion-progress-bar value="0.9" color="danger"></ion-progress-bar>
+          </ion-item>
+          <ion-item>
+            <ion-label>Pyhton</ion-label>
+            <ion-progress-bar value="0.9" color="medium"></ion-progress-bar>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Contacto</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list>
+          <ion-item>
+            <ion-icon name="mail" slot="start"></ion-icon>
+            <ion-label>luis.guaygua&#64;epn.edu.ec</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="call" slot="start"></ion-icon>
+            <ion-label>+593 099 000 000</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="logo-linkedin" slot="start"></ion-icon>
+            <ion-label>linkedin.com/in/luisguaygua</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+</ion-app>

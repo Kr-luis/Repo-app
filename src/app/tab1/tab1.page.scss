@@ -1,0 +1,29 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buttons ion-grid {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .buttons ion-button {
+    width: 100%;
+  }
+  .number {
+    --background: gray; /* Color de fondo para los botones de números */
+    --color: white;     /* Color del texto para los botones de números */
+  }
+
+  .operator {
+    --background: green; /* Color de fondo para los botones de operadores */
+    --color: white;      /* Color del texto para los botones de operadores */
+  }
+
+  .display-label {
+    color: gray; /* Cambiar el color del label de la pantalla */
+  }
